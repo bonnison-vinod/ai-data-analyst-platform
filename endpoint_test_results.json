@@ -1,0 +1,114 @@
+[
+  {
+    "endpoint": "/sessions/",
+    "method": "GET",
+    "status": "PASS",
+    "response_code": 200,
+    "error": null,
+    "timestamp": "2025-07-08T16:59:49.323543"
+  },
+  {
+    "endpoint": "/dashboard/kpis",
+    "method": "GET",
+    "status": "PASS",
+    "response_code": 200,
+    "error": null,
+    "timestamp": "2025-07-08T16:59:51.358164"
+  },
+  {
+    "endpoint": "/dashboard/refresh",
+    "method": "POST",
+    "status": "PASS",
+    "response_code": 200,
+    "error": null,
+    "timestamp": "2025-07-08T16:59:53.390124"
+  },
+  {
+    "endpoint": "/upload/",
+    "method": "POST",
+    "status": "PASS",
+    "response_code": 200,
+    "error": null,
+    "timestamp": "2025-07-08T16:59:55.428350"
+  },
+  {
+    "endpoint": "/generate-enhanced-report/",
+    "method": "POST",
+    "status": "PASS",
+    "response_code": 200,
+    "error": null,
+    "timestamp": "2025-07-08T16:59:57.474445"
+  },
+  {
+    "endpoint": "/report-progress/report_20250708_165957_8859089002681016691",
+    "method": "GET",
+    "status": "PASS",
+    "response_code": 200,
+    "error": null,
+    "timestamp": "2025-07-08T16:59:59.508504"
+  },
+  {
+    "endpoint": "/download-report/report_20250708_165957_8859089002681016691",
+    "method": "GET",
+    "status": "FAIL",
+    "response_code": null,
+    "error": "Expecting value: line 1 column 1 (char 0)",
+    "timestamp": "2025-07-08T17:00:06.446635"
+  },
+  {
+    "endpoint": "/analyze",
+    "method": "POST",
+    "status": "FAIL",
+    "response_code": 422,
+    "error": "HTTP 422: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"question\"],\"msg\":\"Field required\",\"input\":null}]}",
+    "timestamp": "2025-07-08T17:00:08.509852"
+  },
+  {
+    "endpoint": "/analyze-excel",
+    "method": "POST",
+    "status": "FAIL",
+    "response_code": 404,
+    "error": "HTTP 404: {\"detail\":\"Not Found\"}",
+    "timestamp": "2025-07-08T17:00:10.571269"
+  },
+  {
+    "endpoint": "/analyze-database/",
+    "method": "POST",
+    "status": "PASS",
+    "response_code": 200,
+    "error": null,
+    "timestamp": "2025-07-08T17:00:12.624345"
+  },
+  {
+    "endpoint": "/analyze-api/",
+    "method": "POST",
+    "status": "FAIL",
+    "response_code": 500,
+    "error": "HTTP 500: {\"error\":{\"type\":\"HTTPException\",\"message\":\"400: API connection error: If using all scalar values, you must pass an index\",\"timestamp\":\"app.core.error_handlers\"}}",
+    "timestamp": "2025-07-08T17:00:15.923386"
+  },
+  {
+    "endpoint": "/sessions/",
+    "method": "GET",
+    "status": "PASS",
+    "response_code": 200,
+    "error": null,
+    "timestamp": "2025-07-08T17:00:17.956967"
+  },
+  {
+    "endpoint": "/report-progress/report_20250708_165957_8859089002681016691",
+    "method": "GET",
+    "status": "PASS",
+    "response_code": 200,
+    "error": null,
+    "timestamp": "2025-07-08T17:00:19.993971"
+  },
+  {
+    "endpoint": "/report-progress/db_analysis_20250708_170012",
+    "method": "GET",
+    "status": "PASS",
+    "response_code": 200,
+    "error": null,
+    "timestamp": "2025-07-08T17:00:22.060212"
+  }
+]
